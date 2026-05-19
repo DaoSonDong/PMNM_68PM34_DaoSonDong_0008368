@@ -1,4 +1,5 @@
 <?php
-    require_once __DIR__ . "/../app/core/App.php";
-    $app = new App();   
-?>
+require_once "../app/middleware.php";
+$middelware = new middleware();
+$middelware->checklogin();
+$app = new App();
