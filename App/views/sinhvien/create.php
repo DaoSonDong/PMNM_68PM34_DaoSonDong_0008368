@@ -18,5 +18,6 @@
         <input type="text" id="gioitinh" name="gioitinh" required><br><br>
 
         <button type="submit">Thêm</button>
+    </form>
 </body>
 </html>
